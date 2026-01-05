@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_tech_stacks",
+  "info": {
+    "displayName": "Tech Stack",
+    "icon": "code"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_technical_specs",
+  "info": {
+    "displayName": "Technical Spec",
+    "icon": "cogs"
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}

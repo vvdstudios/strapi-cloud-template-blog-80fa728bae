@@ -1,0 +1,70 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project",
+    "description": "My Projects"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "shortDescription": {
+      "type": "text",
+      "required": true
+    },
+    "year": {
+      "type": "string",
+      "required": true
+    },
+    "layoutStyle": {
+      "type": "enumeration",
+      "enum": [
+        "Landscape",
+        "Portrait"
+      ],
+      "required": true
+    },
+    "role": {
+      "type": "string"
+    },
+    "projectUrl": {
+      "type": "string"
+    },
+    "techStack": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.tech-stack"
+    },
+    "contentZone": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.rich-text",
+        "shared.media-grid",
+        "shared.technical-spec",
+        "shared.quote"
+      ]
+    }
+  }
+}

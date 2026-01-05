@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_media_grids",
+  "info": {
+    "displayName": "Media Grid",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": ["images", "videos"]
+    }
+  }
+}
