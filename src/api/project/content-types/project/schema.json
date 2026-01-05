@@ -65,6 +65,9 @@
         "shared.technical-spec",
         "shared.quote"
       ]
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }
